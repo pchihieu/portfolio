@@ -1,0 +1,366 @@
+
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden ;
+    background-color: #f5f5f5;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 17px;
+    
+} 
+
+/* HEADER */
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+     position: fixed;  
+    background: rgba(0,0,0,0.1);
+    width:100%;
+    z-index: 1000;
+    
+    
+}
+
+.logo{
+    font-size:30px;
+}
+
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size:20px;
+
+}
+
+.nav-item{
+    
+    margin-left:  20px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+
+
+
+
+
+
+
+/* INTRODUCTION */
+
+#page-top{
+    background-color: #4e4e4e;
+}
+
+ 
+
+.introduction{
+    background:url(./portfolio/class.jpg) ;
+    text-align: center;
+    width:100%;
+    margin-top:0;
+    height:100vh;
+    color:white;
+    /* background-size: cover; */
+    background-position: center;
+    position: relative;
+    
+    
+    
+    
+}
+
+.intro-background-color{
+    background-color: black;
+    
+    opacity: 0.2;
+    position:absolute;
+    width:100%;
+    height: 100%;
+} 
+.introduction-elements{
+    position:relative;
+    padding-top:150px;
+    z-index: 20; 
+
+
+}
+
+
+
+
+/* ABOUT ME */
+.basic-information{
+    background-color:white;
+    color:#4e4e4e;
+    display:flex;
+    width: 930px;
+    height:750px;
+    margin:50px auto;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.06), 0 2px 5px 0 rgba(0,0,0,0.2);
+    padding:40px;
+}
+
+/* LEFT */
+
+.left-row{
+    width:50%;
+}
+
+/* UPPER */
+
+.upper-left-row{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.basic-info{
+    font-size: 20px;
+    
+}
+
+
+
+/* LOWER */
+
+.lower-left{
+    font-size: 20px;
+}
+
+
+
+/* RIGHT */
+
+.right-row{
+    width:50%;
+}
+
+.right-row-header{
+    color:black;
+    font-size: 45px;
+    margin-top: 0;
+}
+
+.right-row-element{
+    font-size: 20px;
+    
+}
+
+
+
+
+/* SERVICE */
+
+.service-title{
+    text-align: center;
+    font-size: large;
+}
+
+
+.service-elements{
+    display:flex;
+    justify-content: center;
+}
+
+.service-detail{
+    background-color: white;
+    height:350px;
+    width: 350px;
+    margin-left: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 1rem;
+}
+
+
+
+
+/* ACHIEVEMENTS */
+
+.achievement{
+    position: relative;
+    text-align: center;
+    
+
+}
+
+.background-image{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.achievement-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0078ff; 
+    opacity: 0.45;
+} 
+
+.achivements-info{
+    position: relative;
+    z-index: 20;
+}
+
+
+.row{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center;
+    box-sizing: border-box; */
+    padding-top: 200px;
+}
+
+
+
+/* HOBBIES */
+
+.hobbies{
+    background-color: whitesmoke;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.hobbies-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hobbies-heading-bar{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+.hobbies-elements{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+
+.hobbies-info{
+    background-color: white;
+    box-shadow: 0 13px 8px -10px rgba(0,0,0,0.1);
+}
+
+
+/* QUOTE */
+
+
+.quote-background{
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    background-color: #0078ff; 
+    opacity: 0.45;
+}
+
+.quote-info{
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    color: #f5f5f5;
+    padding-top: 250px;
+}
+
+
+
+/* BLOG */
+
+.blog-info{
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.blog-elements{
+    width: 400px;
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: white;
+    
+}
+
+.trip-info{
+    margin:20px;
+}
+
+
+
+
+/* CONTACT */
+
+.contact{
+    color:#1e1e1e;
+    display: flex;
+    
+    
+}
+
+.contact-background{
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    background-color: #0078ff; 
+    opacity: 0.45;
+} 
+
+.contact-elements{
+    background-color: white;
+    width: 60%;
+    height: 500px;
+    position: relative;
+    z-index: 20;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.contact-row{
+    width: 40%;
+    position: relative;
+    z-index: 40;
+    
+}
+
+
+.mb-3{
+    width: 400px;
+}
+
+
+.form-control{
+    width: 500px;
+    
+    border-radius: 0.25rem;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 6px;
+    margin-bottom: 30px;
+    
+}
+
+.button{
+    height: 50px;
+    width: 120px;
+    border-radius: 1.5rem;
+    background-color: #0078ff;
+    color: white;
+    
+}
