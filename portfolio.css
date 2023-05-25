@@ -256,6 +256,7 @@ a{
 .hobbies-info{
     background-color: white;
     box-shadow: 0 13px 8px -10px rgba(0,0,0,0.1);
+    margin-right: 40px;
 }
 
 
@@ -346,7 +347,7 @@ a{
 
 
 .form-control{
-    width: 500px;
+    width: 100%;
     
     border-radius: 0.25rem;
     padding-top: 9px;
