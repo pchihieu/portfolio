@@ -145,14 +145,30 @@ tablet:768px */
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 2000px;
+        height: 1500px;
+        padding: 30px 10px;
         
         
     }
 
 
+    .info-elements{
+        width: 80%;
+    }
 
+    .service-detail{
+        width: 90%;
+        margin:20px auto;
+    }
 
+    .hobbies{
+        padding-left:10px;
+        padding-right:0;
+    }
+
+    .hobbies-info{
+        text-align: center;
+    }
 
 
 
@@ -198,17 +214,65 @@ tablet:768px */
         width: 90%;
         height:70%;
         font-size: 12px;
+        flex-flow: column-reverse;
         
+    }
+
+    .contact-row{
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .contact-input{
+        padding-bottom: 7px;
     }
 
 
     
 
     .form-control{
-        width: 30%;
+        width: 70%;
+    }
+
+    .list-ico{
+        padding-left: 15px;
     }
 
 
     
 
+
+    
+
 }
+
+
+/*Mobile */
+
+ @media(min-width:375px) and (max-width: 520px){
+
+    body{
+        width: 100%;
+    } 
+
+    
+
+    .navbar-nav{
+        padding:0;
+        width: 70%;
+        
+        
+    }
+    .nav-item{
+        width: 20%;
+        margin-left: 10px;
+    }
+
+    .basic-information{
+        padding: 30px 10px;
+    }
+
+    
+
+    
+} 
