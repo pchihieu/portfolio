@@ -120,7 +120,7 @@ tablet:768px */
 
 
 /*Mobile*/
-@media(max-width:759px) /*nhỏ hơn 759px*/
+@media(max-width:769px) /*nhỏ hơn 769px*/
 {
     body{
         width: 100%;
