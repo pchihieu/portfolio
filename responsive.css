@@ -249,27 +249,64 @@ tablet:768px */
 
 /*Mobile */
 
- @media(min-width:375px) and (max-width: 520px){
+ @media(min-width:300px) and (max-width: 520px){
 
     body{
         width: 100%;
     } 
 
-    
+    .logo {
+        width: 100%;
+    }
 
     .navbar-nav{
         padding:0;
-        width: 70%;
-        
+        width: 100%;
+        margin: 0;
+        justify-content: flex-start;
         
     }
     .nav-item{
-        width: 20%;
+        /* width: 20%; */
         margin-left: 10px;
     }
 
     .basic-information{
-        padding: 30px 10px;
+        padding: 30px 10px; 
+    }
+
+    .trip-info{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .blog-elements{
+        width: 100%;
+    }
+
+    .blog-info{
+        text-align: center;
+    }
+
+    .blog-img{
+        width: 100% !important; 
+    }
+
+    .hobbies{
+        padding-left: 0;
+
+    }
+
+    .hobbies-info {
+        margin: 0;
+    }
+
+    .mb-3{
+        width: 100%;
+    }
+
+    .form-control{
+        width: 100%;
     }
 
     /*END*/
