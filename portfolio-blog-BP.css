@@ -1,0 +1,284 @@
+body{
+  width:100%;
+  
+  margin:0;
+  padding:0;
+  color: #111111;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  
+}
+
+
+
+/* HEADER */
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+    
+     position: fixed;  
+    background: rgba(0,0,0,0.1);
+    width:100%;
+    z-index: 1000;
+    
+    
+}
+
+.logo{
+    font-size:30px;
+}
+
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size:20px;
+
+}
+
+.nav-item{
+    
+    margin-left:  20px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+li {
+    position: relative;
+  }
+  
+li::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      border-radius: 4px;
+      background-color: #54b3d6;
+      bottom: 0;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
+  
+  li:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+
+  /* INTRODUCTION */
+
+#page-top{
+  background-color: #4e4e4e;
+}
+
+
+
+.title{
+  /* background:url(./portfolio/class.jpg) ; */
+  text-align: center;
+  width:100%;
+  margin-top:0;
+  height:600px;
+  color:white;
+  /* background-size: cover; */
+  background-position: center;
+  position: relative;
+  background-color: black;
+  
+  
+  
+  
+}
+
+.lower-intro{
+  background-color: grey;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  /* top: -40px; */
+  position: relative;
+}
+
+.lower-intro-2{
+
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -100px;
+  border-radius: 20px;
+
+}
+
+.lower-intro-information{
+  width: 420px;
+  /* padding: 20px 20px; */
+  background-color: #ffffff;
+  height: 530px;
+}
+
+.lower-intro-elements{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.title-background-color{
+  background-color: black;
+  
+  opacity: 0.2;
+  position:absolute;
+  width:100%;
+  height: 100%;
+} 
+.title-elements{
+  position:relative;
+  padding-top:150px;
+  z-index: 20; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT THE PROJECT */
+
+
+.project{
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.info-image{
+  width: 190px;
+  height: 250px;
+
+  /* width: 340px;
+  height: 251px; */
+}
+
+
+.detail-info{
+  display: flex;
+}
+
+.upper-project{
+   margin-bottom: 70px; 
+}
+
+.upper-project-elements{
+  margin: 20px 60px ;
+}
+
+.lower-project{
+  padding-top: 50px;
+}
+
+.lower-project-column{
+  display: flex;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.lower-project-elements{
+  width: 40%;
+  margin:20px;
+}
+
+
+
+
+/* CONTACT */
+
+.contact{
+  color:#1e1e1e;
+  display: flex;
+  
+  
+}
+
+.contact-background{
+  position: absolute;
+  height: 700px;
+  width: 100%;
+  background-color: grey; 
+  opacity: 0.45;
+} 
+
+.contact-elements{
+  background-color: white;
+  width: 70%;
+  height: 500px;
+  position: relative;
+  z-index: 20;
+  /* margin-top: 150px ; */
+  /* margin-left: 475px; */
+  margin: 150px auto ;
+  
+  
+  
+  
+}
+
+.contact-row{
+  
+  text-align: center;
+  
+}
+
+.contact-iput{
+  text-align: center;
+}
+
+
+.mb-3{
+  /* width: 400px; */
+  padding-left: 0;
+}
+
+
+.form-control{
+  width: 80%;
+  
+  border-radius: 0.25rem;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 6px;
+  margin-bottom: 30px;
+  
+}
+
+
+.button{
+  height: 50px;
+  width: 120px;
+  border-radius: 1.5rem;
+  background-color: #0078ff;
+  color: white;
+  
+}

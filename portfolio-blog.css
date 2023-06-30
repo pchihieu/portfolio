@@ -111,14 +111,14 @@ li::before {
 .detail{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 70%;
     margin: 20px auto;
     
 }
 
 .intro-image{
-    width:200px ;
-    height:145px ;
+    width:32% ;
+    height:25% ;
 }
 
 .detail-info{
@@ -153,8 +153,8 @@ li::before {
 
 .img-right{
     width: 90%;
-    height: 400px;
-    padding-left: 5%;
+    height: 40%;
+    padding-left: 0;
     padding-top: 5%;
     
     
@@ -167,6 +167,10 @@ li::before {
 .detail-right-small{
     height: 100px;
 }
+
+/* .blog-info-detail{
+
+} */
 
 
 /* CONTACT */
@@ -188,12 +192,13 @@ li::before {
 
 .contact-elements{
     background-color: white;
-    width: 36%;
+    width: 70%;
     height: 500px;
     position: relative;
     z-index: 20;
-    margin-top: 150px ;
-    margin-left: 475px;
+    /* margin-top: 150px ; */
+    /* margin-left: 475px; */
+    margin: 150px auto ;
     
     
     
@@ -212,13 +217,13 @@ li::before {
 
 
 .mb-3{
-    width: 400px;
-    padding-left: 120px;
+    /* width: 400px; */
+    padding-left: 0;
 }
 
 
 .form-control{
-    width: 100%;
+    width: 80%;
     
     border-radius: 0.25rem;
     padding-top: 9px;
